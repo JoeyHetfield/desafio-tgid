@@ -1,18 +1,20 @@
-## Getting Started
+# Sistema Tgid
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este é um sistema simples de banco desenvolvido em Java.
 
-## Folder Structure
+## Funcionalidades
 
-The workspace contains two folders by default, where:
+- O sistema possui dois tipos de usuários: Empresa e Cliente.
+- Cada Empresa pode ter um tipo de taxa de sistema associada.
+- As Empresas possuem um saldo que é afetado por depósitos, saques e taxas de administração.
+- Os Clientes podem realizar depósitos e saques nas Empresas, dependendo dos saldos disponíveis.
+- O sistema envia callbacks para a Empresa após cada transação, e notificações para o Cliente.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Como Usar
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+1. Certifique-se de ter o Java instalado em sua máquina.
+2. Clone o repositório para o seu ambiente local.
+3. Abra o projeto em sua IDE preferida.
+4. Compile e execute o projeto.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
